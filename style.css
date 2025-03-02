@@ -172,3 +172,33 @@ body {
     border-radius: 10px;
     text-align: center;
 }
+
+.footer-bg {
+    background-color: #64C8FF;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    color: white;
+}
+
+.footer .column {
+    width: 30%;
+}
+
+.footer .column a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .social-icons img {
+    width: 24px;
+    height: 24px;
+}
